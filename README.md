@@ -41,3 +41,15 @@ Then, throughout your code you can simply make calls to the standard input/outpu
 ```C
     printf("Hello, World!\n");
 ```
+
+## Example
+
+To build the included example, run:
+```bash
+$ cmake -B example/build -S example
+$ make -C example/build
+```
+This will generate binary files:
+* example/build/hello_world.elf
+* example/build/hello_world.bin
+* example/build/hello_world.hex
