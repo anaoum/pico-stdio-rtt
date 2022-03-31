@@ -53,3 +53,7 @@ This will generate binary files:
 * example/build/hello_world.elf
 * example/build/hello_world.bin
 * example/build/hello_world.hex
+* example/build/hello_world.uf2
+
+Flash one of these to your pico using your preferred method. Then connect your J-Link probe to the pico and run JLinkRTTViewer:
+![JLinkRTTViewer output from example code](example/hello_world.png)
